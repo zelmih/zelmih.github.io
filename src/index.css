@@ -12,6 +12,8 @@ width: 200px;
 align-items: center;
 text-align:left;
 margin-bottom: 1px;
+text-decoration: line-through double;
+text-transform: uppercase;
 }
 
 a:hover {
@@ -29,7 +31,7 @@ header li:nth-child(2) {
 font-weight: 800;
 font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+h3 {
 color: cornflowerblue;
 font-size: 100px;
 font-family: Arial, Helvetica, sans-serif;
@@ -40,10 +42,11 @@ width: 50px;
 color: blueviolet;
 }
 
-div, #top {
+#top {
 font-size: large;
 color: yellowgreen;
 }
+
 article ~ p {
 font-size: larger;
 color: blue;
@@ -54,4 +57,43 @@ width: 300px;
 ol li:nth-child(odd):hover {
 font-weight: 600;
 color: blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    background-color: blue;
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    display: table;
+}
+
+.content {
+    background-color: #90EE90;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid black;
+    width: 250px;
+    display: inline-flex;
+    float:left;
+    }
+
+.content:hover {
+    background-color: red; 
+    text-decoration: wavy;
+    text-emphasis-position: under left;
+    text-orientation: upright;
+    text-shadow: 20px;
+    font-variant-caps: all-petite-caps;
 }
