@@ -1,0 +1,62 @@
+.navbar, .card-footer {
+    background-color: cornflowerblue;
+    
+}
+
+.navbar-toggler {
+    background: aliceblue;
+}
+
+.navbar-toggler:hover {
+    background: rgb(182, 206, 228);
+}
+
+.navbar-toggler-icon {
+    color:  cornflowerblue;
+}
+
+.navbar-collapse .collapse {
+    background-color: aliceblue;
+    width: 110%;
+}
+
+#collapsibleNavId {
+    background-color: aliceblue;
+    clear: both;
+    float: inline-start;
+    margin-top: 2%;
+}
+
+.nav-item a {
+    text-align: center;
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(182, 206, 228);
+}
+
+h2, h3 {
+    margin-top: 2%;
+}
+
+.tall-section {
+    height: 1000px;
+    background-color: rgb(142, 191, 235);
+    margin: 0 5px 5px 0;
+}
+
+.optional-section {
+    background-color: rgb(77, 226, 109);
+    border: 2px solid white;
+    padding: 20px;
+}
+
+#testimonials, #copyright {
+    color: aliceblue;
+    text-align: center;
+}
